@@ -1,0 +1,30 @@
+Matrix size n = 3
+Prime P = 17
+
+Pattern Matrix A:
+3	9	4	
+1	5	10	
+8	6	2	
+
+Found zero minor determinant? Yes
+
+Det(A) mod P = 8
+
+Inverse Matrix A^-1:
+15	5	13	
+14	1	1	
+0	11	5	
+
+Odd powers of A^-1 (odd exponents <= n):
+
+(A^-1)^1:
+15	5	13	
+14	1	1	
+0	11	5	
+
+(A^-1)^3:
+16	6	11	
+3	6	7	
+4	8	4	
+
+Computation complete. Results saved to odd_powers_output.txt
